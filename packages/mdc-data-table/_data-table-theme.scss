@@ -39,7 +39,7 @@
 @use '@material/typography/mixins' as typography-mixins;
 @use '@material/theme/theme-color';
 @use '@material/density/variables' as density-variables;
-@use '@material/select/mixins' as select-theme;
+@use '@material/select/index' as select-theme;
 
 $fill-color: surface !default;
 $header-row-fill-color: surface !default;
